@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700480a962283542916d72ed569f5d1, type: 3}
+  m_Name: Added Fire Damage
+  m_EditorClassIdentifier: 
+  statName: Added Fire Damage
+  statUnit: 
+  tiers:
+  - minValue: 1
+    maxValue: 5
+  - minValue: 3
+    maxValue: 8
+  - minValue: 6
+    maxValue: 15
+  - minValue: 10
+    maxValue: 22
+  - minValue: 15
+    maxValue: 30
+  - minValue: 25
+    maxValue: 39
+  - minValue: 30
+    maxValue: 65
+  currentValue: 0
+  weight: 0

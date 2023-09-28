@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f700480a962283542916d72ed569f5d1, type: 3}
+  m_Name: Increased Lightning Resistance
+  m_EditorClassIdentifier: 
+  statName: Increased Lightning Resistance
+  statUnit: '%'
+  affixType: 1
+  tiers:
+  - tiers: 0
+    minValue: 1
+    maxValue: 2
+  - tiers: 1
+    minValue: 2
+    maxValue: 4
+  - tiers: 2
+    minValue: 4
+    maxValue: 6
+  - tiers: 3
+    minValue: 6
+    maxValue: 8
+  - tiers: 4
+    minValue: 8
+    maxValue: 12
+  - tiers: 5
+    minValue: 12
+    maxValue: 16
+  - tiers: 6
+    minValue: 16
+    maxValue: 24
+  currentValue: 11

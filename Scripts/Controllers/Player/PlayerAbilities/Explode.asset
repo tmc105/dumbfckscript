@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0c17b95960c534582b89c9902b8168, type: 3}
+  m_Name: Explode
+  m_EditorClassIdentifier: 
+  abilityName: 
+  description: Consumes rage to explode hammer on hit
+  baseDamage: 25
+  damageType: 1
+  abilityPrefab: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50,
+    type: 3}
+  cooldown: 0
+  resourceCost: 25
+  castTime: 0
+  radius: 4
+  isRanged: 0
+  particleDestroyDelay: 5
+  isAOE: 1
+  distanceInFront: 4.2

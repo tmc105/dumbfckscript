@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e82fce687674e4499e90f3acd434c32, type: 3}
+  m_Name: Primary Strike
+  m_EditorClassIdentifier: 
+  abilityName: Primary Strike
+  icon: {fileID: 21300000, guid: 2c04f4986ebc72e48a8b0c3eb2e42db2, type: 3}
+  damage: 15
+  damageType: 0
+  abilityPrefab: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8,
+    type: 3}
+  cooldown: 0
+  resourceCost: -25
+  animationTrigger: primStrike
+  animationDuration: 1
+  distanceForward: 1.6
